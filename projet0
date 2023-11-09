@@ -1,0 +1,16 @@
+Algorithme TTC
+variables TVA : réel;
+                 prix_article:reel;
+                 nbre_article:reel;
+                 prix_TTC:entier;
+
+Début
+	ecrire( ' entrer le prix du prduit  ');
+	lire(prix_article);
+	ecrire(' entrer le nombre de produit ');
+	lire(nbre_article);
+	ecrire(' entrer la TVA ');
+	lire(TVA);
+	prix_TTC<-nbre_article*prix_article*(TVA+1);
+	ecrire(' le prix TTC est: ' ,prix_TTC);
+Fin 
